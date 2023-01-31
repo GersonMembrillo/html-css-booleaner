@@ -25,6 +25,7 @@ h1{
   font-size: 50px;
 }
 
+/* utility */
 .text-grey{
   color: #868686;
 }
@@ -33,4 +34,27 @@ color: #20a9e5;
 }
 .small{
   font-size: 12px;
+}
+.highlight{
+  background-color: #ffff00;
+}
+
+/* table */
+.bg-blue{
+  background-color: #20a9e5;
+}
+.text-white{
+  color: white
+}
+.bg-lightblue{
+  background-color: #b1e5f2;
+}
+table{
+border-spacing: 0;
+}
+.half{
+  width: 50%;
+}
+.container{
+
 }
