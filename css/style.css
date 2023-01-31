@@ -55,6 +55,9 @@ border-spacing: 0;
 .half{
   width: 50%;
 }
-.container{
 
+/* per centrare dare alla main class container */
+.container{
+  width: 80%;
+  margin: 0 auto;
 }
