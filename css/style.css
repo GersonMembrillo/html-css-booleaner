@@ -1,21 +1,36 @@
-header {
-    background-color: #4EA0FFff;
-background-image: (../)
-  background-size: cover;
-text-align: center;
-padding: 5px;
-height: 200px;
+/*
+colori
+sfondo header #4ea0ff
+.text-grey: #868686;
+blue #20a9e5
+.bg-lightblue: #b1e5f2;
+.text-white: #ffffff;
+highlight: #ffff00
+*/
+
+/* header */
+header{
+  background: #4ea0ff url('../img/pattern.png');
+  background-size: 23%;
+  background-position: center;
+  height: 120px;
+}
+header img{
+  width: 300px;
+  padding-top: 40px;
 }
 
-.edit1{
-  color: aqua;
+/* main */
+h1{
+  font-size: 50px;
 }
-thead {
-  background-color: #20A9E5ff;
-  color: white;
+
+.text-grey{
+  color: #868686;
 }
-.tab1{
-  background-color: #B1E5F2ff;
+.text-blue{
+color: #20a9e5;
 }
-.colonna1{width: 24%;}
-.colonna2{width: 24%;}
+.small{
+  font-size: 12px;
+}
